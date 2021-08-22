@@ -17,4 +17,4 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-v
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
-git clone https://github.com/Lienol/openwrt-package/tree/main/luci-app-fileassistant package/luci-app-fileassistant
+git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
