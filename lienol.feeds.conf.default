@@ -7,5 +7,3 @@ src-git freifunk https://github.com/freifunk/openwrt-packages.git;openwrt-19.07
 src-git small https://github.com/kenzok8/small
 src-git helloworld https://github.com/fw876/helloworld
 src-git passwall https://github.com/xiaorouji/openwrt-passwall
-src-git luci-app-vsftpd https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-vsftpd
-src-git vsftpd-alt https://github.com/coolsnowwolf/lede/tree/master/package/lean/vsftpd-alt
