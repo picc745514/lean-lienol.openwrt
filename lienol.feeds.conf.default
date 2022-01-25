@@ -7,5 +7,5 @@ src-git freifunk https://github.com/freifunk/openwrt-packages.git;openwrt-19.07
 src-git small https://github.com/kenzok8/small
 src-git helloworld https://github.com/fw876/helloworld
 src-git passwall https://github.com/xiaorouji/openwrt-passwall
-src-git other https://github.com/Lienol/openwrt-package.git;other
+#src-git other https://github.com/Lienol/openwrt-package.git;other
 #src-git new-openvpn-luci https://github.com/Lienol/openwrt-package/tree/new-openvpn-luci.git;new-openvpn-luci
