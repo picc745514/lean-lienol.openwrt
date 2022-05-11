@@ -20,5 +20,5 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 #git clone https://github.com/liuran001/openwrt-packages.git package/liuran001-package
 git clone https://github.com/coolsnowwolf/lede.git /tmp/lede
-cp -R /tmp/lede/package/lean/vsftpd-alt/ /home/runner/work/lean-lienol.openwrt/lean-lienol.openwrt/openwrt/package/lean/vsftpd-alt
-cp -R /tmp/lede/package/lean/luci-app-vsftpd/ /home/runner/work/lean-lienol.openwrt/lean-lienol.openwrt/openwrt/package/lean/luci-app-vsftpd
+# cp -R /tmp/lede/package/lean/vsftpd-alt/ /home/runner/work/lean-lienol.openwrt/lean-lienol.openwrt/openwrt/package/lean/vsftpd-alt
+# cp -R /tmp/lede/package/lean/luci-app-vsftpd/ /home/runner/work/lean-lienol.openwrt/lean-lienol.openwrt/openwrt/package/lean/luci-app-vsftpd
