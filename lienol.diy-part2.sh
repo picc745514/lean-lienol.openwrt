@@ -22,4 +22,4 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-ap
 git clone https://github.com/coolsnowwolf/lede.git /tmp/lede
 # cp -R /tmp/lede/package/lean/vsftpd-alt/ /home/runner/work/lean-lienol.openwrt/lean-lienol.openwrt/openwrt/package/lean/vsftpd-alt
 # cp -R /tmp/lede/package/lean/luci-app-vsftpd/ /home/runner/work/lean-lienol.openwrt/lean-lienol.openwrt/openwrt/package/lean/luci-app-vsftpd
-git clone https://github.com/tianiue/luci-app-bypass.git package/lean/luci-app-bypass
+#git clone https://github.com/tianiue/luci-app-bypass.git package/lean/luci-app-bypass
