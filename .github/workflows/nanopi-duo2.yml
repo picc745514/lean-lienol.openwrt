@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt.lean.pc-plus
+name: Build OpenWrt.lean.nanopi-duo2
 
 on:
   repository_dispatch:
@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: lean.feeds.conf.default
-  CONFIG_FILE: orange-pc-plus.config
+  CONFIG_FILE: nanopi-duo2.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: lean.diy-part2.sh
   UPLOAD_BIN_DIR: false
@@ -158,7 +158,7 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
-        echo "::set-output name=release_tag::$(date +"%Y.%m.%d-%H%M-lean-pc-plus")"
+        echo "::set-output name=release_tag::$(date +"%Y.%m.%d-%H%M-lean-nanopi-duo2")"
         touch release.txt
         [ $UPLOAD_COWTRANSFER = true ] && echo "🔗 [Cowtransfer](${{ steps.cowtransfer.outputs.url }})" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "🔗 [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
