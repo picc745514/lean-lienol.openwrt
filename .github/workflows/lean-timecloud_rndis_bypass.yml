@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt.lean.timecloud_rndis
+name: Build OpenWrt.lean.timecloud_rndis_bypass
 
 on:
   repository_dispatch:
