@@ -18,5 +18,5 @@ rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
-git clone https://github.com/tianiue/luci-app-bypass.git package/lean/luci-app-bypass
+#git clone https://github.com/tianiue/luci-app-bypass.git package/lean/luci-app-bypass
 #git clone https://github.com/linkease/istore package/lean/istore
