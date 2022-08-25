@@ -23,3 +23,11 @@ git clone https://github.com/coolsnowwolf/lede.git /tmp/lede
 # cp -R /tmp/lede/package/lean/vsftpd-alt/ /home/runner/work/lean-lienol.openwrt/lean-lienol.openwrt/openwrt/package/lean/vsftpd-alt
 # cp -R /tmp/lede/package/lean/luci-app-vsftpd/ /home/runner/work/lean-lienol.openwrt/lean-lienol.openwrt/openwrt/package/lean/luci-app-vsftpd
 #git clone https://github.com/tianiue/luci-app-bypass.git package/lean/luci-app-bypass
+mkdir package/luci-app-openclash
+cd package/luci-app-openclash
+git init
+git remote add -f origin https://github.com/vernesong/OpenClash.git
+git config core.sparsecheckout true
+echo "luci-app-openclash" >> .git/info/sparse-checkout
+git pull --depth 1 origin master
+git branch --set-upstream-to=origin/master master
